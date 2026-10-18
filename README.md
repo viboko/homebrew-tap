@@ -27,3 +27,9 @@ brew install --build-from-source viboko/tap/flint-cli
 brew test viboko/tap/flint-cli
 brew audit --strict --online viboko/tap/flint-cli
 ```
+
+## License
+
+Licensed under either of [Apache License, Version 2.0](LICENSE-APACHE) or
+[MIT license](LICENSE-MIT) at your option. This covers the formulae and
+workflows here; each tool they install has its own license.

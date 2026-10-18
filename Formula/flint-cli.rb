@@ -6,6 +6,11 @@ class FlintCli < Formula
   homepage "https://flint.viboko.dev"
   license any_of: ["MIT", "Apache-2.0"]
 
+  livecheck do
+    url :stable
+    strategy :github_latest
+  end
+
   on_macos do
     on_arm do
       url "https://github.com/viboko/flint/releases/download/v0.1.0/flint-v0.1.0-aarch64-apple-darwin.tar.gz"
