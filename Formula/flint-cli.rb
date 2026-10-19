@@ -13,23 +13,23 @@ class FlintCli < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/viboko/flint/releases/download/v0.1.0/flint-v0.1.0-aarch64-apple-darwin.tar.gz"
-      sha256 "4f8dcb1a17d215a4061488387af9efbef06c014dfb20a10cae436497d2aef4ea"
+      url "https://github.com/viboko/flint/releases/download/v0.2.0/flint-v0.2.0-aarch64-apple-darwin.tar.gz"
+      sha256 "446f565221ef224b1498cd5c40d58528294ab9f93f8e6c4079bf4eee76f6dd03"
     end
     on_intel do
-      url "https://github.com/viboko/flint/releases/download/v0.1.0/flint-v0.1.0-x86_64-apple-darwin.tar.gz"
-      sha256 "54395d038a08d6cd6f8cc8566a2abafce8d7012256cdec47a11004fae544be5c"
+      url "https://github.com/viboko/flint/releases/download/v0.2.0/flint-v0.2.0-x86_64-apple-darwin.tar.gz"
+      sha256 "05767715a68b6434095e4114961a87f53c4675764627c1ba46a0374d365271c7"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/viboko/flint/releases/download/v0.1.0/flint-v0.1.0-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "cf1c4bf5155f78b08d0a83c9488ceaf9e9a898398fe9a40f8846eae2c4e3cec5"
+      url "https://github.com/viboko/flint/releases/download/v0.2.0/flint-v0.2.0-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "2a60bcc29175787c257286eea04757023f2636e763bef8e5be5dda5a1637faa2"
     end
     on_intel do
-      url "https://github.com/viboko/flint/releases/download/v0.1.0/flint-v0.1.0-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "ee7ae80298386d8ab85cc712672ba71a87021c313bf904c6b38810cddc262c5b"
+      url "https://github.com/viboko/flint/releases/download/v0.2.0/flint-v0.2.0-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "2ee47c1dcc995baf2042cabc55c72e3937b7b94c4bcb5f27685b526f4dd13a9e"
     end
   end
 
