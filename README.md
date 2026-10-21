@@ -5,14 +5,16 @@ Homebrew formulae for viboko's tools.
 | Formula | What it is |
 |---|---|
 | [`flint-cli`](Formula/flint-cli.rb) | [flint](https://github.com/viboko/flint), a folder linter. Installs the `flint` command. (Homebrew's own `flint` is an unrelated maths library, hence the name.) |
+| [`crank-cli`](Formula/crank-cli.rb) | [crank](https://github.com/viboko/crank), a code generator: renders Tera templates against YAML data. Installs the `crank` command. (Named after its crates.io package, like `flint-cli`.) |
 
 ## Install
 
 ```bash
 brew install viboko/tap/flint-cli
+brew install viboko/tap/crank-cli
 ```
 
-Or `brew tap viboko/tap` and then `brew install flint-cli`.
+Or `brew tap viboko/tap` and then `brew install flint-cli` or `brew install crank-cli`.
 
 ## Updating a formula
 
